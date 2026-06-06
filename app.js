@@ -279,10 +279,12 @@ const app = {
 
             const weighingContainer = document.getElementById('step-visual-container');
             const cabinContainer = document.getElementById('cabin-visual-container');
+            const documentsContainer = document.getElementById('documents-visual-container');
             const finalContainer = document.getElementById('final-visual-container');
             
             if (weighingContainer) weighingContainer.style.display = 'none';
             if (cabinContainer) cabinContainer.style.display = 'none';
+            if (documentsContainer) documentsContainer.style.display = 'none';
             if (finalContainer) finalContainer.style.display = 'none';
 
             if (currentStepIndex === 0) {
@@ -312,6 +314,10 @@ const app = {
                     if (computerLabel) {
                         computerLabel.innerText = langContent.selectLanguageComputer || "";
                     }
+                }
+            } else if (currentStepIndex === 2) {
+                if (documentsContainer) {
+                    documentsContainer.style.display = 'block';
                 }
             } else if (currentStepIndex === totalSteps - 1) {
                 if (finalContainer) finalContainer.style.display = 'block';
