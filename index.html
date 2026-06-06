@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Truck Driver Guidance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- View 1: Language Selection -->
+        <section id="view-languages" class="view">
+            <h1>Select Language / Sprache wählen</h1>
+            <div class="language-grid">
+                <button onclick="app.setLanguage('de')" class="btn-primary">🇩🇪 Deutsch</button>
+                <button onclick="app.setLanguage('en')" class="btn-primary">🇬🇧 English</button>
+                
+                <!-- Common Truck Driver Languages -->
+                <button onclick="app.setLanguage('pl')" class="btn-secondary">🇵🇱 Polski</button>
+                <button onclick="app.setLanguage('ro')" class="btn-secondary">🇷🇴 Română</button>
+                <button onclick="app.setLanguage('cs')" class="btn-secondary">🇨🇿 Čeština</button>
+                
+                <!-- Browser-native select for all languages -->
+                <div class="select-wrapper">
+                    <select id="lang-select" onchange="app.setLanguage(this.value)" class="btn-secondary select-as-btn">
+                        <option value="" disabled selected>🌍 All Languages / Alle Sprachen...</option>
+                        <option value="ar">العربية (Arabic)</option>
+                        <option value="bg">Български (Bulgarian)</option>
+                        <option value="cs">Čeština (Czech)</option>
+                        <option value="da">Dansk (Danish)</option>
+                        <option value="de">Deutsch (German)</option>
+                        <option value="el">Ελληνικά (Greek)</option>
+                        <option value="en">English</option>
+                        <option value="es">Español (Spanish)</option>
+                        <option value="et">Eesti (Estonian)</option>
+                        <option value="fi">Suomi (Finnish)</option>
+                        <option value="fr">Français (French)</option>
+                        <option value="hu">Magyar (Hungarian)</option>
+                        <option value="it">Italiano (Italian)</option>
+                        <option value="lt">Lietuvių (Lithuanian)</option>
+                        <option value="lv">Latviešu (Latvian)</option>
+                        <option value="nl">Nederlands (Dutch)</option>
+                        <option value="no">Norsk (Norwegian)</option>
+                        <option value="pl">Polski (Polish)</option>
+                        <option value="pt">Português (Portuguese)</option>
+                        <option value="ro">Română (Romanian)</option>
+                        <option value="ru">Русский (Russian)</option>
+                        <option value="sk">Slovenčina (Slovak)</option>
+                        <option value="sl">Slovenščina (Slovenian)</option>
+                        <option value="sv">Svenska (Swedish)</option>
+                        <option value="tr">Türkçe (Turkish)</option>
+                        <option value="uk">Українська (Ukrainian)</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <!-- View 2: Step-by-Step Guidance -->
+        <section id="view-guidance" class="view hidden">
+            <header>
+                <h2 id="current-step-title">Step 1</h2>
+                <div class="progress-container">
+                    <div id="progress-bar"></div>
+                </div>
+            </header>
+            
+            <main id="step-content">
+                <p id="step-description">Instruction goes here...</p>
+                <div id="step-visual-container">
+                    <img id="step-image-1" src="img/weighing.png" alt="Guidance 1" style="display: block;">
+                    <h1>Place truck here</h1>
+                    <img id="step-image-2" src="img/weighing2.png" alt="Guidance 2" style="display: block;">
+                    <div id="step-placeholder" class="visual-cue" style="display: none;">Map / Photo Placeholder</div>
+                </div>
+
+                <!-- Step 2: Cabin Entry -->
+                <div id="cabin-visual-container" class="hidden">
+                    <h1>Enter cabin</h1>
+                    <img src="img/weighing3.png" alt="Enter cabin" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                </div>
+
+                <!-- Last Step: Completion -->
+                <div id="final-visual-container" class="hidden">
+                    <img src="img/emoji-drooling.png" alt="Done" style="display: block; width: 150px; margin: 20px auto;">
+                    <h1 style="text-align: center;">All set!</h1>
+                </div>
+            </main>
+
+            <footer class="nav-controls">
+                <button id="btn-back" onclick="app.prevStep()" class="btn-nav">Back</button>
+                <button id="btn-next" onclick="app.nextStep()" class="btn-nav btn-highlight">Next</button>
+            </footer>
+        </section>
+
+        <!-- Help Overlay -->
+        <button id="help-trigger" onclick="app.requestHelp()">Request Help / Hilfe anfordern</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

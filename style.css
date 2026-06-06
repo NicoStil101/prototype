@@ -1,0 +1,243 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #1a1a1a;
+    --primary-color: #0056b3;
+    --secondary-color: #6c757d;
+    --highlight-color: #ffc107;
+    --error-color: #dc3545;
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.5;
+    font-size: 18px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#app {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.view {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Language Selection */
+.language-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+button, 
+.select-as-btn {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-family: inherit;
+}
+
+button {
+    transition: transform 0.1s;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #e9ecef;
+    color: var(--text-color);
+}
+
+.select-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.select-as-btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 20px;
+    padding-right: 45px;
+    background-color: #e9ecef;
+    color: var(--text-color);
+}
+
+/* Guidance View */
+header {
+    margin-bottom: 20px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#progress-bar {
+    height: 100%;
+    background-color: var(--primary-color);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+#step-content {
+    flex: 1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#step-description {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#step-visual-container,
+#cabin-visual-container {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#step-visual-container h1,
+#cabin-visual-container h1 {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+#step-image-1,
+#step-image-2 {
+    width: 100%;
+    max-height: 350px;
+    min-height: 100px;
+    background-color: #eee;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.image-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: var(--highlight-color);
+    color: #000;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+#step-placeholder {
+    display: flex;
+}
+
+.visual-cue {
+    background-color: #f8f9fa;
+    border: 2px dashed #dee2e6;
+    border-radius: 12px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #adb5bd;
+    font-style: italic;
+}
+
+.nav-controls {
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+    padding-bottom: 20px;
+}
+
+.btn-nav {
+    flex: 1;
+    background-color: #e9ecef;
+    color: var(--text-color);
+}
+
+.btn-highlight {
+    background-color: var(--highlight-color);
+    color: #000;
+}
+
+/* Help Button - Responsive & Accessible */
+#help-trigger {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    max-width: 560px; /* Matches app max-width minus padding */
+    background-color: var(--error-color);
+    color: white;
+    z-index: 100;
+    box-shadow: 0 4px 16px rgba(220, 53, 69, 0.4);
+    transition: all 0.2s ease;
+}
+
+#help-trigger:hover {
+    background-color: #c82333;
+    box-shadow: 0 6px 20px rgba(220, 53, 69, 0.5);
+}
+
+#help-trigger:active {
+    transform: translateX(-50%) scale(0.96);
+}
+
+/* Adjust layout for help button space */
+#view-guidance {
+    padding-bottom: 90px; 
+}
