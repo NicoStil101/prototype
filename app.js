@@ -10,165 +10,165 @@ const app = {
     // Content Data
     content: {
         de: {
-            helpBtn: "Hilfe anfordern", helpSent: "Hilfe wurde gerufen!", next: "Weiter", back: "Zurück", finish: "Abschließen",
+            helpBtn: "Hilfe anfordern", helpSent: "Hilfe ist unterwegs!", placeTruckHere: "LKW hier abstellen", next: "Weiter", back: "Zurück", finish: "Abschließen",
             steps: [
-                { title: "Schritt 1", desc: "Fahren Sie zur Waage:", img1: "img/weighing.png", img2: "img/weighing2.png" },
-                { title: "Schritt 2", desc: "Fahren Sie zur Entladestelle:" },
-                { title: "Schritt 3", desc: "Frachtpapiere übergeben." },
-                { title: "Schritt 4", desc: "Now take your clothes of" }
+                { title: "Schritt 1", desc: "Fahren Sie zur Waage" },
+                { title: "Schritt 2", desc: "Betreten Sie den Container" },
+                { title: "Schritt 3", desc: "Dokumente übergeben" },
+                { title: "Schritt 4", desc: "Jetzt zieh dich aus!" }
             ]
         },
         en: {
-            helpBtn: "Request Help", helpSent: "Help is on the way!", next: "Next", back: "Back", finish: "Finish",
+            helpBtn: "Request Help", helpSent: "Help is on the way!", placeTruckHere: "Place truck here", next: "Next", back: "Back", finish: "Finish",
             steps: [
-                { title: "Step 1", desc: "Proceed to Weighing Bridge:", img1: "img/weighing.png", img2: "img/weighing2.png" },
-                { title: "Step 2", desc: "Move to Loading Pad:" },
-                { title: "Step 3", desc: "Hand over the documentation:" },
-                { title: "Step 4", desc: "Process complete:" }
+                { title: "Step 1", desc: "Proceed to Weighing Bridge" },
+                { title: "Step 2", desc: "Enter the container" },
+                { title: "Step 3", desc: "Hand over documentation" },
+                { title: "Step 4", desc: "Now, take your clothes off!" }
             ]
         },
         ar: {
-            helpBtn: "طلب مساعدة", helpSent: "المساعدة في الطريق!", next: "التالي", back: "السابق", finish: "إنهاء",
+            helpBtn: "طلب مساعدة", helpSent: "المساعدة في الطريق!", placeTruckHere: "ضع الشاحنة هنا", next: "التالي", back: "السابق", finish: "إنهاء",
             steps: [
-                { title: "خطوة 1", desc: "توجه إلى ميزان الشاحنات 1." },
-                { title: "خطوة 2", desc: "انتقل إلى رصيف التحميل 3." },
-                { title: "خطوة 3", desc: "سلم الوثائق للمسؤول." },
-                { title: "خطوة 4", desc: "اكتملت العملية." }
+                { title: "خطوة 1", desc: "توجه إلى ميزان الشاحنات" },
+                { title: "خطوة 2", desc: "ادخل إلى الحاوية" },
+                { title: "خطوة 3", desc: "سلم الوثائق" },
+                { title: "خطوة 4", desc: "الآن، اخلع ملابسك!" }
             ]
         },
         bg: {
-            helpBtn: "Помощ", next: "Напред", back: "Назад",
+            helpBtn: "Поискайте помощ", helpSent: "Помощта е на път!", placeTruckHere: "Поставете камиона тук", next: "Напред", back: "Назад", finish: "Завършване",
             steps: [
-                { title: "Стъпка 1", desc: "Отидете на кантар 1." },
-                { title: "Стъпка 2", desc: "Отидете на рампа 3." },
-                { title: "Стъпка 3", desc: "Предайте документите." },
-                { title: "Стъпка 4", desc: "Готово." }
+                { title: "Стъпка 1", desc: "Отидете на кантара" },
+                { title: "Стъпка 2", desc: "Влезте в контейнера" },
+                { title: "Стъпка 3", desc: "Предайте документацията" },
+                { title: "Стъпка 4", desc: "Сега се съблечи!" }
             ]
         },
         cs: {
-            helpBtn: "Pomoc", next: "Vpřed", back: "Zpět",
+            helpBtn: "Vyžádat pomoc", helpSent: "Pomoc je na cestě!", placeTruckHere: "Umístěte kamion zde", next: "Další", back: "Zpět", finish: "Dokončit",
             steps: [
-                { title: "Krok 1", desc: "Jedno na váhu 1." },
-                { title: "Krok 2", desc: "Přejeďte na nakládací rampu 3." },
-                { title: "Krok 3", desc: "Odevzdejte dokumenty." },
-                { title: "Krok 4", desc: "Hotovo." }
+                { title: "Krok 1", desc: "Přejeďte na váhu" },
+                { title: "Krok 2", desc: "Vstupte do kontejneru" },
+                { title: "Krok 3", desc: "Odevzdejte dokumentaci" },
+                { title: "Krok 4", desc: "Teď se svlékni!" }
             ]
         },
         el: {
-            helpBtn: "Βοήθεια", next: "Επόμενο", back: "Πίσω",
+            helpBtn: "Ζητήστε βοήθεια", helpSent: "Η βοήθεια έρχεται!", placeTruckHere: "Τοποθετήστε το φορτηγό εδώ", next: "Επόμενο", back: "Πίσω", finish: "Ολοκλήρωση",
             steps: [
-                { title: "Βήμα 1", desc: "Πηγαίνετε στη γεφυροπλάστιγγα 1." },
-                { title: "Βήμα 2", desc: "Μεταβείτε στη θέση φόρτωσης 3." },
-                { title: "Βήμα 3", desc: "Παραδώστε τα έγγραφα." },
-                { title: "Βήμα 4", desc: "Ολοκληρώθηκε." }
+                { title: "Βήμα 1", desc: "Πηγαίνετε στη γεφυροπλάστιγγα" },
+                { title: "Βήμα 2", desc: "Εισέλθετε στο κοντέινερ" },
+                { title: "Βήμα 3", desc: "Παραδώστε τα έγγραφα" },
+                { title: "Βήμα 4", desc: "Τώρα, βγάλε τα ρούχα σου!" }
             ]
         },
         es: {
-            helpBtn: "Solicitar ayuda", next: "Siguiente", back: "Atrás",
+            helpBtn: "Solicitar ayuda", helpSent: "¡La ayuda está en camino!", placeTruckHere: "Coloque el camión aquí", next: "Siguiente", back: "Atrás", finish: "Finalizar",
             steps: [
-                { title: "Paso 1", desc: "Diríjase a la báscula 1." },
-                { title: "Paso 2", desc: "Vaya al muelle de carga 3." },
-                { title: "Paso 3", desc: "Entregue los documentos." },
-                { title: "Paso 4", desc: "Completado." }
+                { title: "Paso 1", desc: "Diríjase a la báscula" },
+                { title: "Paso 2", desc: "Entre al contenedor" },
+                { title: "Paso 3", desc: "Entregue la documentación" },
+                { title: "Paso 4", desc: "¡Ahora, quítate la ropa!" }
             ]
         },
         fr: {
-            helpBtn: "Aide", next: "Suivant", back: "Retour",
+            helpBtn: "Demander de l'aide", helpSent: "L'aide est en route !", placeTruckHere: "Placez le camion ici", next: "Suivant", back: "Retour", finish: "Terminer",
             steps: [
-                { title: "Étape 1", desc: "Allez au pont de pesage 1." },
-                { title: "Étape 2", desc: "Allez à l'aire de chargement 3." },
-                { title: "Étape 3", desc: "Remettez les documents." },
-                { title: "Étape 4", desc: "Terminé." }
+                { title: "Étape 1", desc: "Allez au pont de pesage" },
+                { title: "Étape 2", desc: "Entrez dans le conteneur" },
+                { title: "Étape 3", desc: "Remettez la documentation" },
+                { title: "Étape 4", desc: "Maintenant, déshabille-toi !" }
             ]
         },
         hu: {
-            helpBtn: "Segítség", next: "Tovább", back: "Vissza",
+            helpBtn: "Segítség kérése", helpSent: "A segítség úton van!", placeTruckHere: "Helyezze a kamiont ide", next: "Tovább", back: "Vissza", finish: "Befejezés",
             steps: [
-                { title: "1. lépés", desc: "Hajtson az 1-es mérleghez." },
-                { title: "2. lépés", desc: "Hajtson a 3-as rakodóhoz." },
-                { title: "3. lépés", desc: "Adja át az okmányokat." },
-                { title: "4. lépés", desc: "Kész." }
+                { title: "1. lépés", desc: "Hajtson a mérleghez" },
+                { title: "2. lépés", desc: "Lépjen be a konténerbe" },
+                { title: "3. lépés", desc: "Adja át a dokumentációt" },
+                { title: "4. lépés", desc: "Most vetkőzz le!" }
             ]
         },
         it: {
-            helpBtn: "Aiuto", next: "Avanti", back: "Indietro",
+            helpBtn: "Richiedi aiuto", helpSent: "L'aiuto è in arrivo!", placeTruckHere: "Posiziona il camion qui", next: "Avanti", back: "Indietro", finish: "Fine",
             steps: [
-                { title: "Passo 1", desc: "Vai alla pesa 1." },
-                { title: "Passo 2", desc: "Vai al punto di carico 3." },
-                { title: "Passo 3", desc: "Consegna i documenti." },
-                { title: "Passo 4", desc: "Finito." }
+                { title: "Passo 1", desc: "Vai alla pesa" },
+                { title: "Passo 2", desc: "Entra nel container" },
+                { title: "Passo 3", desc: "Consegna la documentazione" },
+                { title: "Passo 4", desc: "Ora spogliati!" }
             ]
         },
         nl: {
-            helpBtn: "Hulp", next: "Volgende", back: "Terug",
+            helpBtn: "Hulp aanvragen", helpSent: "Hulp is onderweg!", placeTruckHere: "Plaats de vrachtwagen hier", next: "Volgende", back: "Terug", finish: "Voltooien",
             steps: [
-                { title: "Stap 1", desc: "Rijd naar weegbrug 1." },
-                { title: "Stap 2", desc: "Rijd naar laadplaats 3." },
-                { title: "Stap 3", desc: "Lever de documenten in." },
-                { title: "Stap 4", desc: "Klaar." }
+                { title: "Stap 1", desc: "Rijd naar de weegbrug" },
+                { title: "Stap 2", desc: "Ga de container in" },
+                { title: "Stap 3", desc: "Lever de documentatie in" },
+                { title: "Stap 4", desc: "Nu, kleed je uit!" }
             ]
         },
         pl: {
-            helpBtn: "Pomoc", next: "Dalej", back: "Wstecz",
+            helpBtn: "Poproś o pomoc", helpSent: "Pomoc jest w drodze!", placeTruckHere: "Umieść ciężarówkę tutaj", next: "Dalej", back: "Wstecz", finish: "Zakończ",
             steps: [
-                { title: "Krok 1", desc: "Udać się do wagi 1." },
-                { title: "Krok 2", desc: "Przejdź do pola załadunkowego 3." },
-                { title: "Krok 3", desc: "Przekaż dokumentację." },
-                { title: "Krok 4", desc: "Zakończono." }
+                { title: "Krok 1", desc: "Udaj się na wagę" },
+                { title: "Krok 2", desc: "Wejdź do kontenera" },
+                { title: "Krok 3", desc: "Przekaż dokumentację" },
+                { title: "Krok 4", desc: "Teraz się rozbierz!" }
             ]
         },
         pt: {
-            helpBtn: "Ajuda", next: "Próximo", back: "Voltar",
+            helpBtn: "Solicitar ajuda", helpSent: "A ajuda está a caminho!", placeTruckHere: "Coloque o caminhão aqui", next: "Próximo", back: "Voltar", finish: "Concluir",
             steps: [
-                { title: "Passo 1", desc: "Vá para a balança 1." },
-                { title: "Passo 2", desc: "Vá para o cais de carga 3." },
-                { title: "Passo 3", desc: "Entregue os documentos." },
-                { title: "Passo 4", desc: "Concluído." }
+                { title: "Passo 1", desc: "Vá para a balança" },
+                { title: "Passo 2", desc: "Entre no contêiner" },
+                { title: "Passo 3", desc: "Entregue a documentação" },
+                { title: "Passo 4", desc: "Agora, tire a roupa!" }
             ]
         },
         ro: {
-            helpBtn: "Ajutor", next: "Înainte", back: "Înapoi",
+            helpBtn: "Solicită ajutor", helpSent: "Ajutorul este pe drum!", placeTruckHere: "Plasați camionul aici", next: "Înainte", back: "Înapoi", finish: "Finalizare",
             steps: [
-                { title: "Pasul 1", desc: "Mergeți la cântarul 1." },
-                { title: "Pasul 2", desc: "Mergeți la rampa de încărcare 3." },
-                { title: "Pasul 3", desc: "Predați documentele." },
-                { title: "Pasul 4", desc: "Finalizat." }
+                { title: "Pasul 1", desc: "Mergeți la cântar" },
+                { title: "Pasul 2", desc: "Intrați în container" },
+                { title: "Pasul 3", desc: "Predați documentația" },
+                { title: "Pasul 4", desc: "Acum, dezbracă-te!" }
             ]
         },
         ru: {
-            helpBtn: "Помощь", next: "Далее", back: "Назад",
+            helpBtn: "Запросить помощь", helpSent: "Помощь в пути!", placeTruckHere: "Разместите грузовик здесь", next: "Далее", back: "Назад", finish: "Завершить",
             steps: [
-                { title: "Шаг 1", desc: "Проследуйте к весам 1." },
-                { title: "Шаг 2", desc: "Перейдите к погрузке 3." },
-                { title: "Шаг 3", desc: "Передайте документы." },
-                { title: "Шаг 4", desc: "Готово." }
+                { title: "Шаг 1", desc: "Проследуйте к весам" },
+                { title: "Шаг 2", desc: "Войдите в контейнер" },
+                { title: "Шаг 3", desc: "Передайте документацию" },
+                { title: "Шаг 4", desc: "А теперь раздевайся!" }
             ]
         },
         sk: {
-            helpBtn: "Pomoc", next: "Ďalej", back: "Späť",
+            helpBtn: "Vyžiadať pomoc", helpSent: "Pomoc je na ceste!", placeTruckHere: "Umiestnite nákladné auto sem", next: "Ďalej", back: "Späť", finish: "Dokončiť",
             steps: [
-                { title: "Krok 1", desc: "Choďte na váhu 1." },
-                { title: "Krok 2", desc: "Choďte na nakladaciu rampu 3." },
-                { title: "Krok 3", desc: "Odovzdajte dokumenty." },
-                { title: "Krok 4", desc: "Hotovo." }
+                { title: "Krok 1", desc: "Prejdite na váhu" },
+                { title: "Krok 2", desc: "Vstúpte do kontajnera" },
+                { title: "Krok 3", desc: "Odovzdajte dokumentáciu" },
+                { title: "Krok 4", desc: "Teraz sa vyzleč!" }
             ]
         },
         tr: {
-            helpBtn: "Yardım", next: "İleri", back: "Geri",
+            helpBtn: "Yardım İste", helpSent: "Yardım yolda!", placeTruckHere: "Kamyonu buraya yerleştirin", next: "İleri", back: "Geri", finish: "Bitir",
             steps: [
-                { title: "Adım 1", desc: "Kantar 1'e gidin." },
-                { title: "Adım 2", desc: "Yükleme alanı 3'e geçin." },
-                { title: "Adım 3", desc: "Belgeleri teslim edin." },
-                { title: "Adım 4", desc: "Tamamlandı." }
+                { title: "Adım 1", desc: "Kantara ilerleyin" },
+                { title: "Adım 2", desc: "Konteynere girin" },
+                { title: "Adım 3", desc: "Belgeleri teslim edin" },
+                { title: "Adım 4", desc: "Şimdi kıyafetlerini çıkar!" }
             ]
         },
         uk: {
-            helpBtn: "Допомога", next: "Далі", back: "Назад",
+            helpBtn: "Запросити допомогу", helpSent: "Допомога в дорозі!", placeTruckHere: "Розмістіть вантажівку тут", next: "Далі", back: "Назад", finish: "Завершити",
             steps: [
-                { title: "Крок 1", desc: "Проїдьте до вагів 1." },
-                { title: "Крок 2", desc: "Перейдіть до завантаження 3." },
-                { title: "Крок 3", desc: "Передайте документи." },
-                { title: "Крок 4", desc: "Завершено." }
+                { title: "Крок 1", desc: "Прямуйте до вагів" },
+                { title: "Крок 2", desc: "Зайдіть у контейнер" },
+                { title: "Крок 3", desc: "Передайте документацію" },
+                { title: "Крок 4", desc: "А тепер роздягайся!" }
             ]
         }
     },
@@ -176,12 +176,20 @@ const app = {
     // Initialization
     init() {
         console.log("App initialized");
-        // Automatically assign the weighing images to Step 1 for all languages
+        // Automatically assign images to steps for all languages
         Object.keys(this.content).forEach(lang => {
-            if (this.content[lang].steps && this.content[lang].steps[0]) {
-                this.content[lang].steps[0].img1 = "img/weighing.png";
-                this.content[lang].steps[0].img2 = "img/weighing2.png";
+            if (this.content[lang].steps) {
+                if (this.content[lang].steps[0]) {
+                    this.content[lang].steps[0].img1 = "img/weighing.png";
+                    this.content[lang].steps[0].img2 = "img/weighing2.png";
                 }
+                if (this.content[lang].steps[1]) {
+                    this.content[lang].steps[1].img = "img/weighing3.png";
+                }
+                if (this.content[lang].steps[3]) {
+                    this.content[lang].steps[3].img = "img/emoji-drooling.png";
+                }
+            }
         });
         this.render();
     },
@@ -265,6 +273,11 @@ const app = {
             // Update Text
             document.getElementById('current-step-title').innerText = step.title || "";
             document.getElementById('step-description').innerText = step.desc || "";
+            
+            const placeTruckEl = document.getElementById('place-truck-here');
+            if (placeTruckEl) {
+                placeTruckEl.innerText = langContent.placeTruckHere || "Place truck here";
+            }
 
             // Toggle between different visual containers based on the current step
             const weighingContainer = document.getElementById('step-visual-container');
