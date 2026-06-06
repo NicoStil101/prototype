@@ -14,8 +14,7 @@ const app = {
             steps: [
                 { title: "Schritt 1", desc: "Fahren Sie zur Waage" },
                 { title: "Schritt 2", desc: "Betreten Sie den Container" },
-                { title: "Schritt 3", desc: "Dokumente übergeben" },
-                { title: "Schritt 4", desc: "Jetzt zieh dich aus!" }
+                { title: "Schritt 3", desc: "Dokumente übergeben" }
             ]
         },
         en: {
@@ -23,8 +22,7 @@ const app = {
             steps: [
                 { title: "Step 1", desc: "Proceed to Weighing Bridge" },
                 { title: "Step 2", desc: "Enter the container" },
-                { title: "Step 3", desc: "Hand over documentation" },
-                { title: "Step 4", desc: "Now, take your clothes off!" }
+                { title: "Step 3", desc: "Hand over documentation" }
             ]
         },
         ar: {
@@ -32,8 +30,7 @@ const app = {
             steps: [
                 { title: "خطوة 1", desc: "توجه إلى ميزان الشاحنات" },
                 { title: "خطوة 2", desc: "ادخل إلى الحاوية" },
-                { title: "خطوة 3", desc: "سلم الوثائق" },
-                { title: "خطوة 4", desc: "الآن، اخلع ملابسك!" }
+                { title: "خطوة 3", desc: "سلم الوثائق" }
             ]
         },
         bg: {
@@ -41,8 +38,7 @@ const app = {
             steps: [
                 { title: "Стъпка 1", desc: "Отидете на кантара" },
                 { title: "Стъпка 2", desc: "Влезте в контейнера" },
-                { title: "Стъпка 3", desc: "Предайте документацията" },
-                { title: "Стъпка 4", desc: "Сега се съблечи!" }
+                { title: "Стъпка 3", desc: "Предайте документацията" }
             ]
         },
         cs: {
@@ -50,8 +46,7 @@ const app = {
             steps: [
                 { title: "Krok 1", desc: "Přejeďte na váhu" },
                 { title: "Krok 2", desc: "Vstupte do kontejneru" },
-                { title: "Krok 3", desc: "Odevzdejte dokumentaci" },
-                { title: "Krok 4", desc: "Teď se svlékni!" }
+                { title: "Krok 3", desc: "Odevzdejte dokumentaci" }
             ]
         },
         el: {
@@ -59,8 +54,7 @@ const app = {
             steps: [
                 { title: "Βήμα 1", desc: "Πηγαίνετε στη γεφυροπλάστιγγα" },
                 { title: "Βήμα 2", desc: "Εισέλθετε στο κοντέινερ" },
-                { title: "Βήμα 3", desc: "Παραδώστε τα έγγραφα" },
-                { title: "Βήμα 4", desc: "Τώρα, βγάλε τα ρούχα σου!" }
+                { title: "Βήμα 3", desc: "Παραδώστε τα έγγραφα" }
             ]
         },
         es: {
@@ -68,8 +62,7 @@ const app = {
             steps: [
                 { title: "Paso 1", desc: "Diríjase a la báscula" },
                 { title: "Paso 2", desc: "Entre al contenedor" },
-                { title: "Paso 3", desc: "Entregue la documentación" },
-                { title: "Paso 4", desc: "¡Ahora, quítate la ropa!" }
+                { title: "Paso 3", desc: "Entregue la documentación" }
             ]
         },
         fr: {
@@ -77,8 +70,7 @@ const app = {
             steps: [
                 { title: "Étape 1", desc: "Allez au pont de pesage" },
                 { title: "Étape 2", desc: "Entrez dans le conteneur" },
-                { title: "Étape 3", desc: "Remettez la documentation" },
-                { title: "Étape 4", desc: "Maintenant, déshabille-toi !" }
+                { title: "Étape 3", desc: "Remettez la documentation" }
             ]
         },
         hu: {
@@ -86,8 +78,7 @@ const app = {
             steps: [
                 { title: "1. lépés", desc: "Hajtson a mérleghez" },
                 { title: "2. lépés", desc: "Lépjen be a konténerbe" },
-                { title: "3. lépés", desc: "Adja át a dokumentációt" },
-                { title: "4. lépés", desc: "Most vetkőzz le!" }
+                { title: "3. lépés", desc: "Adja át a dokumentációt" }
             ]
         },
         it: {
@@ -95,8 +86,7 @@ const app = {
             steps: [
                 { title: "Passo 1", desc: "Vai alla pesa" },
                 { title: "Passo 2", desc: "Entra nel container" },
-                { title: "Passo 3", desc: "Consegna la documentazione" },
-                { title: "Passo 4", desc: "Ora spogliati!" }
+                { title: "Passo 3", desc: "Consegna la documentazione" }
             ]
         },
         nl: {
@@ -104,8 +94,7 @@ const app = {
             steps: [
                 { title: "Stap 1", desc: "Rijd naar de weegbrug" },
                 { title: "Stap 2", desc: "Ga de container in" },
-                { title: "Stap 3", desc: "Lever de documentatie in" },
-                { title: "Stap 4", desc: "Nu, kleed je uit!" }
+                { title: "Stap 3", desc: "Lever de documentatie in" }
             ]
         },
         pl: {
@@ -113,8 +102,7 @@ const app = {
             steps: [
                 { title: "Krok 1", desc: "Udaj się na wagę" },
                 { title: "Krok 2", desc: "Wejdź do kontenera" },
-                { title: "Krok 3", desc: "Przekaż dokumentację" },
-                { title: "Krok 4", desc: "Teraz się rozbierz!" }
+                { title: "Krok 3", desc: "Przekaż dokumentację" }
             ]
         },
         pt: {
@@ -122,8 +110,7 @@ const app = {
             steps: [
                 { title: "Passo 1", desc: "Vá para a balança" },
                 { title: "Passo 2", desc: "Entre no contêiner" },
-                { title: "Passo 3", desc: "Entregue a documentação" },
-                { title: "Passo 4", desc: "Agora, tire a roupa!" }
+                { title: "Passo 3", desc: "Entregue a documentação" }
             ]
         },
         ro: {
@@ -131,8 +118,7 @@ const app = {
             steps: [
                 { title: "Pasul 1", desc: "Mergeți la cântar" },
                 { title: "Pasul 2", desc: "Intrați în container" },
-                { title: "Pasul 3", desc: "Predați documentația" },
-                { title: "Pasul 4", desc: "Acum, dezbracă-te!" }
+                { title: "Pasul 3", desc: "Predați documentația" }
             ]
         },
         ru: {
@@ -140,8 +126,7 @@ const app = {
             steps: [
                 { title: "Шаг 1", desc: "Проследуйте к весам" },
                 { title: "Шаг 2", desc: "Войдите в контейнер" },
-                { title: "Шаг 3", desc: "Передайте документацию" },
-                { title: "Шаг 4", desc: "А теперь раздевайся!" }
+                { title: "Шаг 3", desc: "Передайте документацию" }
             ]
         },
         sk: {
@@ -149,8 +134,7 @@ const app = {
             steps: [
                 { title: "Krok 1", desc: "Prejdite na váhu" },
                 { title: "Krok 2", desc: "Vstúpte do kontajnera" },
-                { title: "Krok 3", desc: "Odovzdajte dokumentáciu" },
-                { title: "Krok 4", desc: "Teraz sa vyzleč!" }
+                { title: "Krok 3", desc: "Odovzdajte dokumentáciu" }
             ]
         },
         tr: {
@@ -158,8 +142,7 @@ const app = {
             steps: [
                 { title: "Adım 1", desc: "Kantara ilerleyin" },
                 { title: "Adım 2", desc: "Konteynere girin" },
-                { title: "Adım 3", desc: "Belgeleri teslim edin" },
-                { title: "Adım 4", desc: "Şimdi kıyafetlerini çıkar!" }
+                { title: "Adım 3", desc: "Belgeleri teslim edin" }
             ]
         },
         uk: {
@@ -167,8 +150,7 @@ const app = {
             steps: [
                 { title: "Крок 1", desc: "Прямуйте до вагів" },
                 { title: "Крок 2", desc: "Зайдіть у контейнер" },
-                { title: "Крок 3", desc: "Передайте документацію" },
-                { title: "Крок 4", desc: "А тепер роздягайся!" }
+                { title: "Крок 3", desc: "Передайте документацію" }
             ]
         }
     },
@@ -185,9 +167,6 @@ const app = {
                 }
                 if (this.content[lang].steps[1]) {
                     this.content[lang].steps[1].img = "img/weighing3.png";
-                }
-                if (this.content[lang].steps[3]) {
-                    this.content[lang].steps[3].img = "img/emoji-drooling.png";
                 }
             }
         });
