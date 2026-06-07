@@ -87,26 +87,12 @@
                 <!-- Last Step: Completion -->
                 <div id="final-visual-container" style="display: none;">
                     <img src="img/parking_lot.png" alt="Go to Parking lot" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 10px;">
-                    
-                    <h1>Enter registration</h1>
-                    <img src="img/office.png" alt="Enter registration" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #eee; min-height: 100px; object-fit: contain;">
+
                 </div>
 
-                <!-- Step 4: Enter Registration -->
-                <div id="step5-visual-container" style="display: none;">
-                    <ul class="document-list">
-                        <li>List of documents</li>
-                        <li>&nbsp;</li>
-                        <li>&nbsp;</li>
-                    </ul>
-                    <h1>Contract summary:</h1>
-                    <img src="img/present_docs.png" alt="Enter registration" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #eee; min-height: 100px; object-fit: contain;">
-                </div>
 
-                <!-- Step 6: Walk to truck -->
-                <div id="step6-visual-container" style="display: none;">
-                    <div class="visual-cue">Image Placeholder</div>
-                </div>
+
+
 
                 <!-- Step 7: Truck inspection -->
                 <div id="step7-visual-container" style="display: none;">
@@ -116,18 +102,24 @@
                     <img src="img/open_silo.png" alt="Open silo" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #eee; min-height: 100px; object-fit: contain;">
                     
                     <h2 style="text-align: left; font-size: 1.2rem; margin-top: 10px;">Open Left hose</h2>
-                    <img src="img/open_left_hose.png" alt="Open Left hose" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #eee; min-height: 100px; object-fit: contain;">
-                    
-                    <h2 style="text-align: left; font-size: 1.2rem; margin-top: 10px;">Open Right hose</h2>
-                    <img src="img/open_right_hose.png" alt="Open Right hose" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #eee; min-height: 100px; object-fit: contain;">
+                    <img src="img/left_silo.png" alt="Open Left hose" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #eee; min-height: 100px; object-fit: contain;">
 
-                    <p style="margin-top: 20px; font-weight: bold;">Press when finished:</p>
-                    <button id="btn-notify-loader" class="btn-primary" style="margin-top: 10px; padding: 15px;" onclick="alert('Task finished!')">Finished</button>
+                    <h2 style="text-align: left; font-size: 1.2rem; margin-top: 10px;">Open Right hose</h2>
+                    <img src="img/open_silo3.png" alt="Open silo 3" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #eee; min-height: 100px; object-fit: contain;">
+
+
                 </div>
 
                 <!-- Step 8: Go to station X -->
                 <div id="step8-visual-container" style="display: none;">
                     <div class="visual-cue">Image Placeholder</div>
+                </div>
+
+                <!-- Step 9: Tour Number -->
+                <div id="tour-visual-container" style="display: none;">
+                    <div style="margin-top: 20px;">
+                        <input type="text" id="tour-number-input" placeholder="Tour Number" style="width: 100%; padding: 15px; font-size: 1.2rem; border-radius: 8px; border: 1px solid #ccc; margin-bottom: 20px;">
+                    </div>
                 </div>
             </main>
 
