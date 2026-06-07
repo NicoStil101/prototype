@@ -15,8 +15,9 @@ const app = {
             steps: [
                 { title: "Schritt 1", desc: "Fahren Sie zur Waage und stellen Sie den LKW ab" },
                 { title: "Schritt 2", desc: "Fahren Sie zur Laderampe und folgen Sie den Anweisungen am Computer" },
-                { title: "Schritt 3", desc: "Dokumente übergeben" },
-                { title: "Schritt 4", desc: "Jetzt bitte ausziehen!" }
+                { title: "Schritt 3", desc: "Zum Parkplatz fahren" },
+                { title: "Schritt 4", desc: "LKW-Inspektion" },
+                { title: "Schritt 5", desc: "Gehen Sie zu Station X" }
             ]
         },
         en: {
@@ -25,8 +26,10 @@ const app = {
             steps: [
                 { title: "Step 1", desc: "Proceed to Weighing Bridge and place truck" },
                 { title: "Step 2", desc: "Enter Cabin" },
-                { title: "Step 3", desc: "Hand over documentation" },
-                { title: "Step 4", desc: "Now, take your clothes off!" }
+                { title: "Step 3", desc: "Park truck here" },
+                { title: "Step 4", desc: "Truck inspection" },
+                { title: "Step 5", desc: "Go to station X" },
+                { title: "Step 6", desc: "Enter tour number" }
             ]
         },
         ar: {
@@ -35,8 +38,10 @@ const app = {
             steps: [
                 { title: "خطوة 1", desc: "توجه إلى ميزان الشاحنات وضع الشاحنة" },
                 { title: "خطوة 2", desc: "انتقل إلى منصة التحميل واتبع تعليمات الكمبيوتر" },
-                { title: "خطوة 3", desc: "سلم الوثائق" },
-                { title: "خطوة 4", desc: "الآن، اخلع ملابسك!" }
+                { title: "خطوة 3", desc: "اذهب إلى موقف السيارات" },
+                { title: "خطوة 4", desc: "فحص الشاحنة" },
+                { title: "خطوة 5", desc: "اذهب إلى المحطة X" },
+                { title: "خطوة 6", desc: "أدخل رقم الجولة" }
             ]
         },
         bg: {
@@ -45,18 +50,22 @@ const app = {
             steps: [
                 { title: "Стъпка 1", desc: "Отидете на кантара и поставете камиона" },
                 { title: "Стъпка 2", desc: "Отидете на рампата и следвайте инструкциите на компютъра" },
-                { title: "Стъпка 3", desc: "Предайте документацията" },
-                { title: "Стъпка 4", desc: "Сега се съблечете!" }
+                { title: "Стъпка 3", desc: "Отидете на паркинга" },
+                { title: "Стъпка 4", desc: "Проверка на камиона" },
+                { title: "Стъпка 5", desc: "Отидете на станция X" },
+                { title: "Стъпка 6", desc: "Въведете номер на обиколка" }
             ]
         },
         cs: {
             helpBtn: "Vyžádat pomoc", helpSent: "Pomoc je na cestě!", placeTruckHere: "Umístěte kamion zde", next: "Další", back: "Zpět", finish: "Dokončit",
             selectLanguageComputer: "Vyberte svůj jazyk na počítači a postupujte podle pokynů",
             steps: [
-                { title: "Krok 1", desc: "Přejeďte na váhu a zastavte kamion" },
+                { title: "Krok 1", desc: "Přejeďte na váhu and zastavte kamion" },
                 { title: "Krok 2", desc: "Přejeďte na rampu a postupujte podle pokynů na počítači" },
-                { title: "Krok 3", desc: "Odevzdejte dokumentaci" },
-                { title: "Krok 4", desc: "Nyní si svlékněte oblečení!" }
+                { title: "Krok 3", desc: "Přejděte na parkoviště" },
+                { title: "Krok 4", desc: "Kontrola kamionu" },
+                { title: "Krok 5", desc: "Jděte na stanici X" },
+                { title: "Krok 6", desc: "Zadejte číslo prohlídky" }
             ]
         },
         el: {
@@ -65,18 +74,22 @@ const app = {
             steps: [
                 { title: "Βήμα 1", desc: "Πηγαίνετε στη γεφυροπλάστιγγα και σταθμεύστε" },
                 { title: "Βήμα 2", desc: "Μεταβείτε στη φόρτωση και ακολουθήστε τις οδηγίες στον υπολογιστή" },
-                { title: "Βήμα 3", desc: "Παραδώστε τα έγγραφα" },
-                { title: "Βήμα 4", desc: "Τώρα, βγάλτε τα ρούχα σας!" }
+                { title: "Βήμα 3", desc: "Πηγαίνετε στο χώρο στάθμευσης" },
+                { title: "Βήμα 4", desc: "Επιθεώρηση φορτηγού" },
+                { title: "Βήμα 5", desc: "Πηγαίνετε στο σταθμό X" },
+                { title: "Βήμα 6", desc: "Εισαγάγετε αριθμό περιήγησης" }
             ]
         },
         es: {
-            helpBtn: "Solicitar ayuda", helpSent: "¡La ayuda está en camino!", placeTruckHere: "Coloque el camión aquí", next: "Siguiente", back: "Atrás", finish: "Finalizar",
+            helpBtn: "Solicitar ayuda", helpSent: "¡La ajuda está en camino!", placeTruckHere: "Coloque el camión aquí", next: "Siguiente", back: "Atrás", finish: "Finalizar",
             selectLanguageComputer: "Seleccione su idioma en la computadora y siga las instrucciones",
             steps: [
                 { title: "Paso 1", desc: "Diríjase a la báscula y estacione" },
                 { title: "Paso 2", desc: "Vaya al muelle y siga las instrucciones en la computadora" },
-                { title: "Paso 3", desc: "Entregue la documentación" },
-                { title: "Paso 4", desc: "¡Ahora, quítese la ropa!" }
+                { title: "Paso 3", desc: "Vaya al estacionamiento" },
+                { title: "Paso 4", desc: "Inspección del camión" },
+                { title: "Paso 5", desc: "Vaya a la estación X" },
+                { title: "Paso 6", desc: "Introducir número de tour" }
             ]
         },
         fr: {
@@ -85,8 +98,10 @@ const app = {
             steps: [
                 { title: "Étape 1", desc: "Allez au pont de pesage et stationnez" },
                 { title: "Étape 2", desc: "Allez au chargement et suivez les instructions sur l'ordinateur" },
-                { title: "Étape 3", desc: "Remettez la documentation" },
-                { title: "Étape 4", desc: "Maintenant, déshabillez-vous !" }
+                { title: "Étape 3", desc: "Allez au parking" },
+                { title: "Étape 4", desc: "Inspection du camion" },
+                { title: "Étape 5", desc: "Allez à la station X" },
+                { title: "Étape 6", desc: "Entrer le numéro de tour" }
             ]
         },
         hu: {
@@ -95,8 +110,10 @@ const app = {
             steps: [
                 { title: "1. lépés", desc: "Hajtson a mérleghez und álljon meg" },
                 { title: "2. lépés", desc: "Hajtson a rakodóhoz és kövesse a számítógépes utasításokat" },
-                { title: "3. lépés", desc: "Adja át a dokumentációt" },
-                { title: "4. lépés", desc: "Most vetkőzzön le!" }
+                { title: "3. lépés", desc: "Menjen a parkolóba" },
+                { title: "4. lépés", desc: "Kamion ellenőrzése" },
+                { title: "5. lépés", desc: "Menjen az X állomásra" },
+                { title: "6. lépés", desc: "Adja meg a túra számát" }
             ]
         },
         it: {
@@ -105,8 +122,10 @@ const app = {
             steps: [
                 { title: "Passo 1", desc: "Vai alla pesa e posiziona il camion" },
                 { title: "Passo 2", desc: "Vai al carico e segui le istruzioni al computer" },
-                { title: "Passo 3", desc: "Consegna la documentazione" },
-                { title: "Passo 4", desc: "Ora, spogliati!" }
+                { title: "Passo 3", desc: "Vai al parcheggio" },
+                { title: "Passo 4", desc: "Ispezione del camion" },
+                { title: "Passo 5", desc: "Vai alla stazione X" },
+                { title: "Passo 6", desc: "Inserisci il numero del tour" }
             ]
         },
         nl: {
@@ -115,8 +134,10 @@ const app = {
             steps: [
                 { title: "Stap 1", desc: "Rijd naar de weegbrug en parkeer" },
                 { title: "Stap 2", desc: "Ga naar het laden en volg de computerinstructies" },
-                { title: "Stap 3", desc: "Lever de documentatie in" },
-                { title: "Stap 4", desc: "Kleed je nu uit!" }
+                { title: "Stap 3", desc: "Ga naar de parkeerplaats" },
+                { title: "Stap 4", desc: "Vrachtwagen inspectie" },
+                { title: "Stap 5", desc: "Ga naar station X" },
+                { title: "Stap 6", desc: "Voer het tournummer in" }
             ]
         },
         pl: {
@@ -125,8 +146,10 @@ const app = {
             steps: [
                 { title: "Krok 1", desc: "Udaj się na wagę i zaparkuj" },
                 { title: "Krok 2", desc: "Przejdź do załadunku i postępuj zgodnie z instrukcjami na komputerze" },
-                { title: "Krok 3", desc: "Przekaż dokumentację" },
-                { title: "Krok 4", desc: "Teraz się rozbierz!" }
+                { title: "Krok 3", desc: "Udaj się na parking" },
+                { title: "Krok 4", desc: "Inspekcja ciężarówki" },
+                { title: "Krok 5", desc: "Idź do stacji X" },
+                { title: "Krok 6", desc: "Wprowadź numer trasy" }
             ]
         },
         pt: {
@@ -135,8 +158,10 @@ const app = {
             steps: [
                 { title: "Passo 1", desc: "Vá para a balança e estacione" },
                 { title: "Passo 2", desc: "Vá para a carga e siga as instruções no computador" },
-                { title: "Passo 3", desc: "Entregue a documentação" },
-                { title: "Passo 4", desc: "Agora, tire a roupa!" }
+                { title: "Passo 3", desc: "Vá para o estacionamento" },
+                { title: "Passo 4", desc: "Inspeção do caminhão" },
+                { title: "Passo 5", desc: "Vá para a estação X" },
+                { title: "Passo 6", desc: "Insira o número da excursão" }
             ]
         },
         ro: {
@@ -145,8 +170,10 @@ const app = {
             steps: [
                 { title: "Pasul 1", desc: "Mergeți la cântar și parcați" },
                 { title: "Pasul 2", desc: "Mergeți la încărcare și urmați instrucțiunile de pe computer" },
-                { title: "Pasul 3", desc: "Predați documentația" },
-                { title: "Pasul 4", desc: "Acum, dezbrăcați-vă!" }
+                { title: "Pasul 3", desc: "Mergeți la parcare" },
+                { title: "Pasul 4", desc: "Inspecția camionului" },
+                { title: "Pasul 5", desc: "Mergeți la stația X" },
+                { title: "Pasul 6", desc: "Introduceți numărul turneului" }
             ]
         },
         ru: {
@@ -155,8 +182,10 @@ const app = {
             steps: [
                 { title: "Шаг 1", desc: "Проследуйте к весам и припаркуйтесь" },
                 { title: "Шаг 2", desc: "Перейдите к погрузке и следуйте инструкциям на компьютере" },
-                { title: "Шаг 3", desc: "Передайте документацию" },
-                { title: "Шаг 4", desc: "А теперь раздевайтесь!" }
+                { title: "Шаг 3", desc: "Отправляйтесь на парковку" },
+                { title: "Шаг 4", desc: "Осмотр грузовика" },
+                { title: "Шаг 5", desc: "Идите к станции X" },
+                { title: "Шаг 6", desc: "Введите номер тура" }
             ]
         },
         sk: {
@@ -165,8 +194,10 @@ const app = {
             steps: [
                 { title: "Krok 1", desc: "Prejdite na váhu a zaparkujte" },
                 { title: "Krok 2", desc: "Prejdite k nakládke a postupujte podľa pokynov na počítači" },
-                { title: "Krok 3", desc: "Odovzdajte dokumentáciu" },
-                { title: "Krok 4", desc: "Teraz sa vyzlečte!" }
+                { title: "Krok 3", desc: "Prejdite na parkovisko" },
+                { title: "Krok 4", desc: "Kontrola kamiónu" },
+                { title: "Krok 5", desc: "Choďte na stanicu X" },
+                { title: "Krok 6", desc: "Zadajte číslo prehliadky" }
             ]
         },
         tr: {
@@ -175,8 +206,10 @@ const app = {
             steps: [
                 { title: "Adım 1", desc: "Kantara gidin e park edin" },
                 { title: "Adım 2", desc: "Yüklemeye geçin ve bilgisayardaki talimatları izleyin" },
-                { title: "Adım 3", desc: "Belgeleri teslim edin" },
-                { title: "Adım 4", desc: "Şimdi soyunun!" }
+                { title: "Adım 3", desc: "Otoparka gidin" },
+                { title: "Adım 4", desc: "Kamyon denetimi" },
+                { title: "Adım 5", desc: "X istasyonuna gidin" },
+                { title: "Adım 6", desc: "Tur numarasını girin" }
             ]
         },
         uk: {
@@ -185,8 +218,10 @@ const app = {
             steps: [
                 { title: "Крок 1", desc: "Прямуйте до вагів та припаркуйтеся" },
                 { title: "Крок 2", desc: "Перейдіть до завантаження та дотримуйтесь інструкцій на комп'ютері" },
-                { title: "Крок 3", desc: "Передайте документацію" },
-                { title: "Крок 4", desc: "А тепер роздягайтеся!" }
+                { title: "Крок 3", desc: "Прямуйте на парковку" },
+                { title: "Крок 4", desc: "Огляд вантажівки" },
+                { title: "Крок 5", desc: "Йдіть до станції X" },
+                { title: "Крок 6", desc: "Введіть номер туру" }
             ]
         }
     },
@@ -203,17 +238,17 @@ const app = {
         this.state.currentLanguage = lang;
         this.state.currentView = 'guidance';
         this.state.currentStepIndex = 0;
-        
+
         const select = document.getElementById('lang-select');
         if (select) select.selectedIndex = 0;
-        
+
         this.render();
     },
 
     nextStep() {
         const lang = this.state.currentLanguage;
         const totalSteps = this.content[lang].steps.length;
-        
+
         if (this.state.currentStepIndex < totalSteps - 1) {
             this.state.currentStepIndex++;
             this.render();
@@ -238,13 +273,13 @@ const app = {
         const lang = this.state.currentLanguage;
         const msg = this.content[lang]?.helpSent || "Help requested!";
         alert(msg);
-        
+
         const helpBtn = document.getElementById('help-trigger');
         if (helpBtn) {
             const originalText = helpBtn.innerText;
             helpBtn.innerText = "✓ " + (this.content[lang]?.helpSent || "Sent");
             helpBtn.style.backgroundColor = "#28a745";
-            
+
             setTimeout(() => {
                 helpBtn.innerText = originalText;
                 helpBtn.style.backgroundColor = "";
@@ -269,7 +304,7 @@ const app = {
             const steps = langContent.steps || [];
             const step = steps[currentStepIndex];
             const totalSteps = steps.length;
-            
+
             if (!step) return;
 
             const titleEl = document.getElementById('current-step-title');
@@ -279,24 +314,27 @@ const app = {
 
             const weighingContainer = document.getElementById('step-visual-container');
             const cabinContainer = document.getElementById('cabin-visual-container');
-            const documentsContainer = document.getElementById('documents-visual-container');
             const finalContainer = document.getElementById('final-visual-container');
-            
+            const step7Container = document.getElementById('step7-visual-container');
+            const step8Container = document.getElementById('step8-visual-container');
+            const tourContainer = document.getElementById('tour-visual-container');
             if (weighingContainer) weighingContainer.style.display = 'none';
             if (cabinContainer) cabinContainer.style.display = 'none';
-            if (documentsContainer) documentsContainer.style.display = 'none';
             if (finalContainer) finalContainer.style.display = 'none';
+            if (step7Container) step7Container.style.display = 'none';
+            if (step8Container) step8Container.style.display = 'none';
+            if (tourContainer) tourContainer.style.display = 'none';
 
             if (currentStepIndex === 0) {
                 if (weighingContainer) {
                     weighingContainer.style.display = 'flex';
                     weighingContainer.style.flexDirection = 'column';
                     weighingContainer.style.gap = '15px';
-                    
+
                     const img1 = document.getElementById('step-image-1');
                     const img2 = document.getElementById('step-image-2');
                     const label = document.getElementById('place-truck-here');
-                    
+
                     if (img1) img1.style.display = 'block';
                     if (label) {
                         label.style.display = 'block';
@@ -309,26 +347,36 @@ const app = {
                     cabinContainer.style.display = 'flex';
                     cabinContainer.style.flexDirection = 'column';
                     cabinContainer.style.gap = '15px';
-                    
+
                     const computerLabel = document.getElementById('select-lang-computer');
                     if (computerLabel) {
                         computerLabel.innerText = langContent.selectLanguageComputer || "";
                     }
                 }
             } else if (currentStepIndex === 2) {
-                if (documentsContainer) {
-                    documentsContainer.style.display = 'block';
+                if (finalContainer) {
+                    finalContainer.style.display = 'flex';
                 }
-            } else if (currentStepIndex === totalSteps - 1) {
-                if (finalContainer) finalContainer.style.display = 'block';
+            } else if (currentStepIndex === 3) {
+                if (step7Container) {
+                    step7Container.style.display = 'flex';
+                }
+            } else if (currentStepIndex === 4) {
+                if (step8Container) {
+                    step8Container.style.display = 'flex';
+                }
+            } else if (currentStepIndex === 5) {
+                if (tourContainer) {
+                    tourContainer.style.display = 'block';
+                }
             }
-            
+
             const backBtn = document.getElementById('btn-back');
             const nextBtn = document.getElementById('btn-next');
             if (backBtn) backBtn.innerText = langContent.back || "Back";
             if (nextBtn) {
-                nextBtn.innerText = (currentStepIndex === totalSteps - 1) 
-                    ? (langContent.finish || "Finish") 
+                nextBtn.innerText = (currentStepIndex === totalSteps - 1)
+                    ? (langContent.finish || "Finish")
                     : (langContent.next || "Next");
             }
 
@@ -337,7 +385,7 @@ const app = {
                 const progress = ((currentStepIndex + 1) / totalSteps) * 100;
                 progressBar.style.width = `${progress}%`;
             }
-            
+
             if (helpBtn) helpBtn.innerText = langContent.helpBtn || "Help";
         }
     }

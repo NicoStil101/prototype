@@ -134,6 +134,7 @@ header {
     flex: 1;
     text-align: center;
     padding: 20px 0;
+    overflow-y: auto;
 }
 
 #step-description {
@@ -143,7 +144,13 @@ header {
 }
 
 #step-visual-container,
-#cabin-visual-container {
+#cabin-visual-container,
+#documents-visual-container,
+#final-visual-container,
+#step5-visual-container,
+#step6-visual-container,
+#step7-visual-container,
+#step8-visual-container {
     margin-bottom: 20px;
     width: 100%;
     display: flex;
@@ -156,6 +163,24 @@ header {
     margin-bottom: 0;
     font-size: 1.5rem;
     color: var(--primary-color);
+}
+
+#documents-visual-container h1,
+#final-visual-container h1,
+#step5-visual-container h1,
+#step7-visual-container h1,
+#step8-visual-container h1 {
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.document-list {
+    text-align: left;
+    margin: 10px 0 10px 40px;
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 #step-image-1,
@@ -213,31 +238,31 @@ header {
     color: #000;
 }
 
-/* Help Button - Responsive & Accessible */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+/* Help Button - Responsive & Accessible (Inline Top Right) */
 #help-trigger {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% - 40px);
-    max-width: 560px; /* Matches app max-width minus padding */
+    width: auto;
+    padding: 8px 16px;
+    font-size: 0.9rem;
     background-color: var(--error-color);
     color: white;
-    z-index: 100;
-    box-shadow: 0 4px 16px rgba(220, 53, 69, 0.4);
+    box-shadow: 0 4px 12px rgba(220, 53, 69, 0.3);
     transition: all 0.2s ease;
+    flex-shrink: 0;
 }
 
 #help-trigger:hover {
     background-color: #c82333;
-    box-shadow: 0 6px 20px rgba(220, 53, 69, 0.5);
+    box-shadow: 0 6px 16px rgba(220, 53, 69, 0.4);
 }
 
 #help-trigger:active {
-    transform: translateX(-50%) scale(0.96);
-}
-
-/* Adjust layout for help button space */
-#view-guidance {
-    padding-bottom: 90px; 
+    transform: scale(0.96);
 }
