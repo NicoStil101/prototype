@@ -58,7 +58,10 @@
         <!-- View 2: Step-by-Step Guidance -->
         <section id="view-guidance" class="view hidden">
             <header>
-                <h2 id="current-step-title">Step 1</h2>
+                <div class="header-top">
+                    <h2 id="current-step-title">Step 1</h2>
+                    <button id="help-trigger" onclick="app.requestHelp()">Request Help / Hilfe anfordern</button>
+                </div>
                 <div class="progress-container">
                     <div id="progress-bar"></div>
                 </div>
@@ -104,6 +107,28 @@
                 <div id="step6-visual-container" style="display: none;">
                     <div class="visual-cue">Image Placeholder</div>
                 </div>
+
+                <!-- Step 7: Truck inspection -->
+                <div id="step7-visual-container" style="display: none;">
+                    <h1>Truck inspection</h1>
+                    
+                    <h2 style="text-align: left; font-size: 1.2rem; margin-top: 10px;">Open silo</h2>
+                    <img src="img/open_silo.png" alt="Open silo" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #eee; min-height: 100px; object-fit: contain;">
+                    
+                    <h2 style="text-align: left; font-size: 1.2rem; margin-top: 10px;">Open Left hose</h2>
+                    <img src="img/open_left_hose.png" alt="Open Left hose" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #eee; min-height: 100px; object-fit: contain;">
+                    
+                    <h2 style="text-align: left; font-size: 1.2rem; margin-top: 10px;">Open Right hose</h2>
+                    <img src="img/open_right_hose.png" alt="Open Right hose" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #eee; min-height: 100px; object-fit: contain;">
+
+                    <p style="margin-top: 20px; font-weight: bold;">Press when finished:</p>
+                    <button id="btn-notify-loader" class="btn-primary" style="margin-top: 10px; padding: 15px;" onclick="alert('Task finished!')">Finished</button>
+                </div>
+
+                <!-- Step 8: Go to station X -->
+                <div id="step8-visual-container" style="display: none;">
+                    <div class="visual-cue">Image Placeholder</div>
+                </div>
             </main>
 
             <footer class="nav-controls">
@@ -112,8 +137,7 @@
             </footer>
         </section>
 
-        <!-- Help Overlay -->
-        <button id="help-trigger" onclick="app.requestHelp()">Request Help / Hilfe anfordern</button>
+
     </div>
 
     <script src="app.js"></script>
