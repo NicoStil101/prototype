@@ -234,31 +234,26 @@ header {
     color: #000;
 }
 
-/* Help Button - Responsive & Accessible */
+/* Help Button - Responsive & Accessible (Top Right Corner) */
 #help-trigger {
     position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% - 40px);
-    max-width: 560px; /* Matches app max-width minus padding */
+    top: 20px;
+    right: 20px;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 1rem;
     background-color: var(--error-color);
     color: white;
     z-index: 100;
-    box-shadow: 0 4px 16px rgba(220, 53, 69, 0.4);
+    box-shadow: 0 4px 12px rgba(220, 53, 69, 0.3);
     transition: all 0.2s ease;
 }
 
 #help-trigger:hover {
     background-color: #c82333;
-    box-shadow: 0 6px 20px rgba(220, 53, 69, 0.5);
+    box-shadow: 0 6px 16px rgba(220, 53, 69, 0.4);
 }
 
 #help-trigger:active {
-    transform: translateX(-50%) scale(0.96);
-}
-
-/* Adjust layout for help button space */
-#view-guidance {
-    padding-bottom: 90px; 
+    transform: scale(0.96);
 }
