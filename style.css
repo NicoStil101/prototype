@@ -148,7 +148,9 @@ header {
 #documents-visual-container,
 #final-visual-container,
 #step5-visual-container,
-#step6-visual-container {
+#step6-visual-container,
+#step7-visual-container,
+#step8-visual-container {
     margin-bottom: 20px;
     width: 100%;
     display: flex;
@@ -165,7 +167,9 @@ header {
 
 #documents-visual-container h1,
 #final-visual-container h1,
-#step5-visual-container h1 {
+#step5-visual-container h1,
+#step7-visual-container h1,
+#step8-visual-container h1 {
     margin-bottom: 0;
     font-size: 1.4rem;
     font-weight: 600;

@@ -18,7 +18,9 @@ const app = {
                 { title: "Schritt 3", desc: "Dokumente übergeben" },
                 { title: "Schritt 4", desc: "Zum Parkplatz fahren" },
                 { title: "Schritt 5", desc: "Dokumente vorlegen" },
-                { title: "Schritt 6", desc: "Zum LKW gehen" }
+                { title: "Schritt 6", desc: "Zum LKW gehen" },
+                { title: "Schritt 7", desc: "LKW-Inspektion" },
+                { title: "Schritt 8", desc: "Gehen Sie zu Station X" }
             ]
         },
         en: {
@@ -30,7 +32,9 @@ const app = {
                 { title: "Step 3", desc: "Hand over documentation" },
                 { title: "Step 4", desc: "Go to Parking lot" },
                 { title: "Step 5", desc: "Present documentation" },
-                { title: "Step 6", desc: "Walk to truck" }
+                { title: "Step 6", desc: "Walk to truck" },
+                { title: "Step 7", desc: "Truck inspection" },
+                { title: "Step 8", desc: "Go to station X" }
             ]
         },
         ar: {
@@ -42,7 +46,9 @@ const app = {
                 { title: "خطوة 3", desc: "سلم الوثائق" },
                 { title: "خطوة 4", desc: "اذهب إلى موقف السيارات" },
                 { title: "خطوة 5", desc: "تقديم الوثائق" },
-                { title: "خطوة 6", desc: "امش إلى الشاحنة" }
+                { title: "خطوة 6", desc: "امش إلى الشاحنة" },
+                { title: "خطوة 7", desc: "فحص الشاحنة" },
+                { title: "خطوة 8", desc: "اذهب إلى المحطة X" }
             ]
         },
         bg: {
@@ -54,7 +60,9 @@ const app = {
                 { title: "Стъпка 3", desc: "Предайте документацията" },
                 { title: "Стъпка 4", desc: "Отидете на паркинга" },
                 { title: "Стъпка 5", desc: "Представете документация" },
-                { title: "Стъпка 6", desc: "Отидете до камиона" }
+                { title: "Стъпка 6", desc: "Отидете до камиона" },
+                { title: "Стъпка 7", desc: "Проверка на камиона" },
+                { title: "Стъпка 8", desc: "Отидете на станция X" }
             ]
         },
         cs: {
@@ -66,7 +74,9 @@ const app = {
                 { title: "Krok 3", desc: "Odevzdejte dokumentaci" },
                 { title: "Krok 4", desc: "Přejděte na parkoviště" },
                 { title: "Krok 5", desc: "Předložte dokumentaci" },
-                { title: "Krok 6", desc: "Jděte ke kamionu" }
+                { title: "Krok 6", desc: "Jděte ke kamionu" },
+                { title: "Krok 7", desc: "Kontrola kamionu" },
+                { title: "Krok 8", desc: "Jděte na stanici X" }
             ]
         },
         el: {
@@ -78,7 +88,9 @@ const app = {
                 { title: "Βήμα 3", desc: "Παραδώστε τα έγγραφα" },
                 { title: "Βήμα 4", desc: "Πηγαίνετε στο χώρο στάθμευσης" },
                 { title: "Βήμα 5", desc: "Προσκομίστε τα έγγραφα" },
-                { title: "Βήμα 6", desc: "Περπατήστε στο φορτηγό" }
+                { title: "Βήμα 6", desc: "Περπατήστε στο φορτηγό" },
+                { title: "Βήμα 7", desc: "Επιθεώρηση φορτηγού" },
+                { title: "Βήμα 8", desc: "Πηγαίνετε στο σταθμό X" }
             ]
         },
         es: {
@@ -90,7 +102,9 @@ const app = {
                 { title: "Paso 3", desc: "Entregue la documentación" },
                 { title: "Paso 4", desc: "Vaya al estacionamiento" },
                 { title: "Paso 5", desc: "Presentar documentación" },
-                { title: "Paso 6", desc: "Camine hacia el camión" }
+                { title: "Paso 6", desc: "Camine hacia el camión" },
+                { title: "Paso 7", desc: "Inspección del camión" },
+                { title: "Paso 8", desc: "Vaya a la estación X" }
             ]
         },
         fr: {
@@ -102,7 +116,9 @@ const app = {
                 { title: "Étape 3", desc: "Remettez la documentation" },
                 { title: "Étape 4", desc: "Allez au parking" },
                 { title: "Étape 5", desc: "Présenter les documents" },
-                { title: "Étape 6", desc: "Marchez jusqu'au camion" }
+                { title: "Étape 6", desc: "Marchez jusqu'au camion" },
+                { title: "Étape 7", desc: "Inspection du camion" },
+                { title: "Étape 8", desc: "Allez à la station X" }
             ]
         },
         hu: {
@@ -114,7 +130,9 @@ const app = {
                 { title: "3. lépés", desc: "Adja át a dokumentációt" },
                 { title: "4. lépés", desc: "Menjen a parkolóba" },
                 { title: "5. lépés", desc: "Mutassa be a dokumentumokat" },
-                { title: "6. lépés", desc: "Sétáljon a kamionhoz" }
+                { title: "6. lépés", desc: "Sétáljon a kamionhoz" },
+                { title: "7. lépés", desc: "Kamion ellenőrzése" },
+                { title: "8. lépés", desc: "Menjen az X állomásra" }
             ]
         },
         it: {
@@ -126,7 +144,9 @@ const app = {
                 { title: "Passo 3", desc: "Consegna la documentazione" },
                 { title: "Passo 4", desc: "Vai al parcheggio" },
                 { title: "Passo 5", desc: "Presentare la documentazione" },
-                { title: "Passo 6", desc: "Cammina verso il camion" }
+                { title: "Passo 6", desc: "Cammina verso il camion" },
+                { title: "Passo 7", desc: "Ispezione del camion" },
+                { title: "Passo 8", desc: "Vai alla stazione X" }
             ]
         },
         nl: {
@@ -138,7 +158,9 @@ const app = {
                 { title: "Stap 3", desc: "Lever de documentatie in" },
                 { title: "Stap 4", desc: "Ga naar de parkeerplaats" },
                 { title: "Stap 5", desc: "Documentatie overhandigen" },
-                { title: "Stap 6", desc: "Loop naar de vrachtwagen" }
+                { title: "Stap 6", desc: "Loop naar de vrachtwagen" },
+                { title: "Stap 7", desc: "Vrachtwagen inspectie" },
+                { title: "Stap 8", desc: "Ga naar station X" }
             ]
         },
         pl: {
@@ -150,7 +172,9 @@ const app = {
                 { title: "Krok 3", desc: "Przekaż dokumentację" },
                 { title: "Krok 4", desc: "Udaj się na parking" },
                 { title: "Krok 5", desc: "Przedstaw dokumentację" },
-                { title: "Krok 6", desc: "Podejdź do ciężarówki" }
+                { title: "Krok 6", desc: "Podejdź do ciężarówki" },
+                { title: "Krok 7", desc: "Inspekcja ciężarówki" },
+                { title: "Krok 8", desc: "Idź do stacji X" }
             ]
         },
         pt: {
@@ -162,7 +186,9 @@ const app = {
                 { title: "Passo 3", desc: "Entregue a documentação" },
                 { title: "Passo 4", desc: "Vá para o estacionamento" },
                 { title: "Passo 5", desc: "Apresentar documentação" },
-                { title: "Passo 6", desc: "Caminhe até o caminhão" }
+                { title: "Passo 6", desc: "Caminhe até o caminhão" },
+                { title: "Passo 7", desc: "Inspeção do caminhão" },
+                { title: "Passo 8", desc: "Vá para a estação X" }
             ]
         },
         ro: {
@@ -174,7 +200,9 @@ const app = {
                 { title: "Pasul 3", desc: "Predați documentația" },
                 { title: "Pasul 4", desc: "Mergeți la parcare" },
                 { title: "Pasul 5", desc: "Prezentați documentația" },
-                { title: "Pasul 6", desc: "Mergeți la camion" }
+                { title: "Pasul 6", desc: "Mergeți la camion" },
+                { title: "Pasul 7", desc: "Inspecția camionului" },
+                { title: "Pasul 8", desc: "Mergeți la stația X" }
             ]
         },
         ru: {
@@ -186,7 +214,9 @@ const app = {
                 { title: "Шаг 3", desc: "Передайте документацию" },
                 { title: "Шаг 4", desc: "Отправляйтесь на парковку" },
                 { title: "Шаг 5", desc: "Предъявите документы" },
-                { title: "Шаг 6", desc: "Идите к грузовику" }
+                { title: "Шаг 6", desc: "Идите к грузовику" },
+                { title: "Шаг 7", desc: "Осмотр грузовика" },
+                { title: "Шаг 8", desc: "Идите к станции X" }
             ]
         },
         sk: {
@@ -198,7 +228,9 @@ const app = {
                 { title: "Krok 3", desc: "Odovzdajte dokumentáciu" },
                 { title: "Krok 4", desc: "Prejdite na parkovisko" },
                 { title: "Krok 5", desc: "Predložte dokumentáciu" },
-                { title: "Krok 6", desc: "Choďte k nákladnému autu" }
+                { title: "Krok 6", desc: "Choďte k nákladnému autu" },
+                { title: "Krok 7", desc: "Kontrola kamiónu" },
+                { title: "Krok 8", desc: "Choďte na stanicu X" }
             ]
         },
         tr: {
@@ -210,7 +242,9 @@ const app = {
                 { title: "Adım 3", desc: "Belgeleri teslim edin" },
                 { title: "Adım 4", desc: "Otoparka gidin" },
                 { title: "Adım 5", desc: "Belgeleri sunun" },
-                { title: "Adım 6", desc: "Kamyona yürüyün" }
+                { title: "Adım 6", desc: "Kamyona yürüyün" },
+                { title: "Adım 7", desc: "Kamyon denetimi" },
+                { title: "Adım 8", desc: "X istasyonuna gidin" }
             ]
         },
         uk: {
@@ -222,7 +256,9 @@ const app = {
                 { title: "Крок 3", desc: "Передайте документацію" },
                 { title: "Крок 4", desc: "Прямуйте на парковку" },
                 { title: "Крок 5", desc: "Надайте документи" },
-                { title: "Крок 6", desc: "Йдіть до вантажівки" }
+                { title: "Крок 6", desc: "Йдіть до вантажівки" },
+                { title: "Крок 7", desc: "Огляд вантажівки" },
+                { title: "Крок 8", desc: "Йдіть до станції X" }
             ]
         }
     },
@@ -319,6 +355,8 @@ const app = {
             const finalContainer = document.getElementById('final-visual-container');
             const step5Container = document.getElementById('step5-visual-container');
             const step6Container = document.getElementById('step6-visual-container');
+            const step7Container = document.getElementById('step7-visual-container');
+            const step8Container = document.getElementById('step8-visual-container');
             
             if (weighingContainer) weighingContainer.style.display = 'none';
             if (cabinContainer) cabinContainer.style.display = 'none';
@@ -326,6 +364,8 @@ const app = {
             if (finalContainer) finalContainer.style.display = 'none';
             if (step5Container) step5Container.style.display = 'none';
             if (step6Container) step6Container.style.display = 'none';
+            if (step7Container) step7Container.style.display = 'none';
+            if (step8Container) step8Container.style.display = 'none';
 
             if (currentStepIndex === 0) {
                 if (weighingContainer) {
@@ -370,6 +410,14 @@ const app = {
             } else if (currentStepIndex === 5) {
                 if (step6Container) {
                     step6Container.style.display = 'flex';
+                }
+            } else if (currentStepIndex === 6) {
+                if (step7Container) {
+                    step7Container.style.display = 'flex';
+                }
+            } else if (currentStepIndex === 7) {
+                if (step8Container) {
+                    step8Container.style.display = 'flex';
                 }
             }
             
