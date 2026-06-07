@@ -96,7 +96,6 @@
 
                 <!-- Step 7: Truck inspection -->
                 <div id="step7-visual-container" style="display: none;">
-                    <h1>Truck inspection</h1>
                     
                     <h2 style="text-align: left; font-size: 1.2rem; margin-top: 10px;">Open silo</h2>
                     <img src="img/open_silo.png" alt="Open silo" style="display: block; width: 100%; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); background-color: #eee; min-height: 100px; object-fit: contain;">
@@ -110,15 +109,13 @@
 
                 </div>
 
-                <!-- Step 8: Go to station X -->
-                <div id="step8-visual-container" style="display: none;">
-                    <div class="visual-cue">Image Placeholder</div>
-                </div>
+
 
                 <!-- Step 9: Tour Number -->
                 <div id="tour-visual-container" style="display: none;">
-                    <div style="margin-top: 20px;">
-                        <input type="text" id="tour-number-input" placeholder="Tour Number" style="width: 100%; padding: 15px; font-size: 1.2rem; border-radius: 8px; border: 1px solid #ccc; margin-bottom: 20px;">
+                    <div style="margin-top: 20px; display: flex; flex-direction: column; gap: 15px;">
+                        <input type="text" id="tour-number-input" placeholder="Tour Number" style="width: 100%; padding: 15px; font-size: 1.2rem; border-radius: 8px; border: 1px solid #ccc;">
+                        <button id="btn-confirm-tour" class="btn-primary" style="padding: 15px;" onclick="alert('Confirmed!')">Confirm</button>
                     </div>
                 </div>
             </main>
